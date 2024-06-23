@@ -82,3 +82,27 @@ img {
 .project-description {
   padding-top: 30px;
 }
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+  .hero {
+    padding: 40px 0;
+    width: 100%;
+  }
+
+  .project-description {
+    text-align: center;
+    padding-top: 0;
+  }
+
+  .button {
+    text-align: center;
+  }
+}
