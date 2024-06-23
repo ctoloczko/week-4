@@ -1,8 +1,8 @@
 /*   font-family: "Karla", sans-serif;
   font-family: "Mulish", sans-serif; */
 :root {
-  --primary-color: #e0ebeb;
-  --secondary-color: #24527a;
+  --primary-color: #cdcdcd;
+  --secondary-color: #363636;
   --headings-font: "Karla", sans-serif;
   --default-font: "Mulish", sans-serif;
 }
@@ -28,6 +28,25 @@ h2 {
   font-weight: 250;
 }
 
+h3 {
+  font-family: var(--headings-font);
+}
+
+img {
+  filter: brightness(98%) contrast(114%) saturate(0%);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project-description h2 {
+  font-weight: 600;
+}
+
+.project-description p {
+  line-height: 1.5;
+  font-weight: 300;
+  font-family: var(--default-font);
+}
+
 .hero p {
   font-family: var(--default-font);
   font-size: 25px;
@@ -39,7 +58,7 @@ h2 {
   background-color: var(--primary-color);
 }
 
-.btn-styling {
+.btn-styling-primary {
   background-color: var(--secondary-color);
   color: #e0ebeb;
   padding: 10px 30px;
@@ -47,4 +66,19 @@ h2 {
   font-size: 18px;
   margin-top: 30px;
   font-family: var(--default-font);
+}
+
+.btn-styling-secondary {
+  background-color: #f1f5f5;
+  color: var(--secondary-color);
+  border: solid 1px var(--secondary-color);
+  padding: 10px 30px;
+  font-weight: 200;
+  font-size: 18px;
+  margin-top: 30px;
+  font-family: var(--default-font);
+}
+
+.project-description {
+  padding-top: 30px;
 }
