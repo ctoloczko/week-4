@@ -1,12 +1,18 @@
 /*   font-family: "Karla", sans-serif;
   font-family: "Mulish", sans-serif; */
+:root {
+  --primary-color: #e0ebeb;
+  --secondary-color: #24527a;
+  --headings-font: "Karla", sans-serif;
+  --default-font: "Mulish", sans-serif;
+}
 
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: "Karla", sans-serif;
+  font-family: var(--headings-font);
 }
 
 h1 {
@@ -14,6 +20,7 @@ h1 {
   font-weight: 700;
   line-height: 60px;
   padding: 30px;
+  opacity: 0.8;
 }
 
 h2 {
@@ -22,22 +29,22 @@ h2 {
 }
 
 .hero p {
-  font-family: "Mulish", sans-serif;
+  font-family: var(--default-font);
   font-size: 25px;
 }
 
 .hero {
-  padding: 130px 30px;
+  padding: 120px 30px;
   text-align: center;
-  background-color: #e0ebeb;
+  background-color: var(--primary-color);
 }
 
 .btn-styling {
-  background-color: #24527a;
+  background-color: var(--secondary-color);
   color: #e0ebeb;
   padding: 10px 30px;
   font-weight: 200;
   font-size: 18px;
   margin-top: 30px;
-  font-family: "Mulish", sans-serif;
+  font-family: var(--default-font);
 }
