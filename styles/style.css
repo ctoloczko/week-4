@@ -86,9 +86,10 @@ img {
 
 .img-me {
   max-width: 75%;
+  margin-top: 40px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   h1 {
     font-size: 44px;
     line-height: 1;
@@ -115,5 +116,8 @@ img {
     margin-top: 10px;
     padding-top: 40px;
     padding-left: 20px;
+  }
+  .img-me {
+    max-width: 60%;
   }
 }
