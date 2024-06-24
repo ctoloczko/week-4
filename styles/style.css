@@ -81,10 +81,14 @@ img {
 }
 
 .about-section {
-  padding: 120px 30px;
+  padding: 120px 30px 120px 120px;
 }
 
-@media (max-width: 700px) {
+.img-me {
+  max-width: 75%;
+}
+
+@media (max-width: 800px) {
   h1 {
     font-size: 44px;
     line-height: 1;
@@ -106,8 +110,10 @@ img {
   .button {
     text-align: center;
   }
-}
-
-.img-me {
-  max-width: 70%;
+  .about-section {
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 40px;
+    padding-left: 20px;
+  }
 }
