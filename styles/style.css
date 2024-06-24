@@ -84,12 +84,11 @@ p {
 }
 
 .about-section {
-  padding: 120px 30px 120px 120px;
+  padding: 120px 30px 120px 70px;
 }
 
 .img-me {
-  max-width: 75%;
-  margin-top: 40px;
+  max-width: 90%;
 }
 
 @media (max-width: 900px) {
