@@ -19,7 +19,7 @@ h1 {
   font-size: 66px;
   font-weight: 700;
   line-height: 60px;
-  padding: 30px;
+
   opacity: 0.8;
 }
 
@@ -45,6 +45,7 @@ img {
   line-height: 1.5;
   font-weight: 300;
   font-family: var(--default-font);
+  padding-top: 30px;
 }
 
 .hero p {
@@ -79,8 +80,8 @@ img {
   font-family: var(--default-font);
 }
 
-.project-description {
-  padding-top: 30px;
+.about-section {
+  padding: 120px 30px;
 }
 
 @media (max-width: 700px) {
@@ -105,4 +106,8 @@ img {
   .button {
     text-align: center;
   }
+}
+
+.img-me {
+  max-width: 70%;
 }
