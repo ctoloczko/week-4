@@ -62,6 +62,11 @@ nav ul {
   margin-bottom: 0;
 }
 
+nav a:hover,
+nav li.active a {
+  color: #b1b1b1;
+}
+
 .project-description h2 {
   font-weight: 600;
 }
