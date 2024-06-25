@@ -67,6 +67,35 @@ nav li.active a {
   color: #b1b1b1;
 }
 
+footer .contact-box {
+  padding: 30px 260px;
+  background-color: var(--primary-color);
+}
+
+footer .email-link {
+  font-size: 24px;
+  transition: all 100ms ease-in-out;
+}
+
+footer a:hover {
+  color: #b1b1b1;
+}
+
+footer .fa-brands {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  font-size: 28px;
+  padding: 5px;
+  margin: 15px;
+  border-radius: 480%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .fa-brands:hover {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
+
 .project-description h2 {
   font-weight: 600;
 }
@@ -148,6 +177,10 @@ nav li.active a {
   margin: 10px 30px;
 }
 
+.last-project {
+  padding-bottom: 0;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -187,5 +220,9 @@ nav li.active a {
   }
   .container h1 {
     padding-bottom: 0;
+  }
+
+  footer .contact-box {
+    padding: 20px 10px;
   }
 }
